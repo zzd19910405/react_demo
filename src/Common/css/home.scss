@@ -1,0 +1,36 @@
+@mixin home-user {
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    span {
+        display: block;
+        color:#fff;
+    }
+
+}
+.home-login-user {
+    background: rgb(9, 201, 95);
+    @include home-user;
+}
+.register-add {
+    background: rgb(221, 129, 8);
+    @include home-user;
+}
+.student-add {
+    background: rgb(14, 136, 236);
+    @include home-user;
+}
+.class-add {
+    background: rgb(8, 195, 219);
+    @include home-user;
+}
+.member-add {
+    background: rgb(226, 7, 179);
+    @include home-user;
+}
+.no-answer {
+    background: rgb(93, 103, 104);
+    @include home-user;
+}
