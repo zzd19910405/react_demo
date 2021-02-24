@@ -42,7 +42,9 @@ class LAside extends Component {
                                 </Menu.Item>
                             </SubMenu>
                             <Menu.Item key='operCenter' icon={<ChromeFilled />}>运营中心</Menu.Item>
-                            <Menu.Item key='lkCenter' icon={<CloudFilled />}>LK建模中心</Menu.Item>
+                            <Menu.Item key='lkCenter' icon={<CloudFilled />}>
+                                <Link to={{pathname: '/rotation'}}>LK建模中心</Link>
+                            </Menu.Item>
                             <SubMenu key='setCenter' title='设置中心' icon={<SettingFilled />}>
                                 <Menu.Item key='webSet' icon={<SettingFilled />}>站点设置</Menu.Item>
                                 <Menu.Item key='userSet' icon={<SettingFilled />}>用户设置</Menu.Item>

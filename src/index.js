@@ -5,6 +5,7 @@ import { BrowserRouter as Router} from 'react-router-dom';
 
 import App from './App';
 import Store from './Store'
+import './mock/data'
 
 import 'antd/dist/antd.css'
 
